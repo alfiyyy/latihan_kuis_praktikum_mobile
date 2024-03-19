@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_kuis_praktikum_mobile/screens/home.dart';
 import 'package:latihan_kuis_praktikum_mobile/screens/login.dart';
 
 void main() {
@@ -12,7 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(),
+      home: LoginScreen(),
     );
   }
 }
